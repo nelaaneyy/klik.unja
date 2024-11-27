@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@500&display=swap');
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #feca9d;
+    background: linear-gradient(to right, #ffffff, #feca9d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.left-side {
+    flex: 1;
+    padding: 40px;
+    background-color: #FFF5EE;
+}
+
+.logo {
+    color: #FF6B4A;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    margin-bottom: 40px;
+    width: 80px;
+}
+
+.illustration img{
+    width: 500px;
+    margin: 0;
+    padding: 0; 
+    border: none;
+    background: none;
+}
+
+.right-side {
+    flex: 1;
+    padding: 40px;
+    background: white;
+}
+
+h1 {
+    color: #FF6B4A;
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-weight: bolder;
+}
+p {
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: #FF6B4A;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background: #f5f5f5;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #666;
+    font-size: 15px;
+}
+
+.forgot-password {
+    color: #6C63FF;
+    text-decoration: none;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 12px;
+    background: #9CCDD2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    color: #666;
+}
+
+.google-button {
+    width: 100%;
+    padding: 12px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #6C63FF;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side {
+        display: none;
+    }
+}
